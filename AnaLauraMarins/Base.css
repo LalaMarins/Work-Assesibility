@@ -1,0 +1,59 @@
+*{ margin: 0; padding: 0; font-family: 'Caveat', cursive;}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+header{
+    background-color: #872cbb;
+    padding: 1%;
+    border-bottom: 1px solid #999;
+}
+header h1{font-size: 25px;color: rgb(15, 15, 15); padding: 2px; text-decoration: none; text-align: center;}
+
+header a { font-size: 19px;color: rgb(15, 15, 15); padding: 2px;text-decoration: none;}
+
+header a:hover{color: rgb(40, 19, 145); }
+
+body{   background-image: linear-gradient(to right, rgba(117, 13, 117, 0.534),rgba(42, 40, 172, 0.548)); }
+
+main h2 {color: rgb(15, 15, 15); padding: 1.5%; font-size: 21px; }
+
+main h3{color: rgb(15, 15, 15); padding-left: 1.5%; font-size: 18px;}
+
+.img1:hover{  transform: scaleX(-1);}
+.img1{float: right; padding-left: 2%; padding-right: 2%; border-radius: 20%;}
+
+.Home{ padding-left: 2%; padding-right: 2%; border-radius: 20%;
+}
+.imgHo{width: 40%; padding-left: 2%; border-radius: 10%;}
+.img2{ width: 55%; float: left;  margin: 1.5%; border-radius: 7%;}
+
+.fatec{
+    margin: 1.5%;
+    clear: both;
+}
+
+.img_animes{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin-right: 250px;
+}
+
+.txt_animes {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img_jogos{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin-right: 250px;
+}
+
+.txt_jogos {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
